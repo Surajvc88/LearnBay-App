@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source:/
-destination: /var/www/html
+destination: s3://learnbay-cd/S3-code-deploy
   hooks:
     AfterInstall:
       - location: /install_nginx.sh
